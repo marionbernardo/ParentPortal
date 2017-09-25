@@ -1,0 +1,158 @@
+
+label.overlay {
+ position: fixed;
+ display: none;
+ height: 100%;
+ width: 100%;
+ left: 0;
+ top: 0;
+}
+input[type=checkbox].smoosh:checked ~ label.overlay {
+ display: block;
+ z-index: 500;
+}
+div.overlay-dialogue {
+ position: fixed;
+ display: none;
+
+ width: 30%;
+ left: 500px;
+ right: 0;
+ top: 15%;
+ bottom: 15%;
+ border-radius: 2px;
+ color:black;
+ background: whitesmoke;
+}
+input[type=checkbox].smoosh:checked ~ div.overlay-dialogue {
+ display: block;
+ z-index: 505;
+}
+/* eye candy */
+
+.smoosh {
+ display: none;
+ line-height: 0;
+ margin: 0 0 0 0;
+ padding: 0 0 0 0;
+ color: transparent;
+ background: transparent;
+ border: none;
+ outline: none;
+ height: 0;
+ width: 0;
+}
+
+div.overlay-dialogue {
+ 
+ overflow-y: auto;
+ animation: START 0.3s ease-in-out;
+}
+@keyframes START {
+ 0% {transform: rotateY(55deg); opacity: 0;}
+ 100% {transform: rotateY(0deg); opacity: 1;}
+}
+
+label.overlay {
+ background-color: rgba(0,0,0,.5);
+ text-align: center;
+ color: rgba(200, 200, 200, 0.5);
+ line-height: 120%;
+}
+
+label.overlay:active {
+ line-height: 130%;
+}
+label.overlay:before {
+ content: 'Tap here to dismiss';
+}
+
+
+
+label:active {
+ line-height: 90%;
+ color: orange;
+}
+
+
+#labelclose {
+	margin-right: 4px;
+	float:right;
+	background-color: #c0392b;
+	border-radius: 3px;
+}
+#labelclose:hover {
+
+cursor: pointer;
+opacity:0.9;
+}
+
+#selection {
+margin-top: 50px;
+	
+}
+
+input[type=button] {
+
+	width: 15em;
+	height: 4em;
+	margin-bottom: 20px;
+	background: #353F3E;
+	color:white;
+	font-weight: bold;
+	font-size: 14pt;
+	border-radius: 4px;
+	border: 1px solid #353F3E;
+
+
+	
+}
+
+input[type=button]:hover {
+	opacity: 0.9;
+	cursor: pointer;
+	color:#f39c12;
+}
+
+h2 {
+	color:#353F3E;
+}
+
+#boxcontent {
+
+	padding: 12px;
+	overflow: hidden;
+}
+
+#panel {
+	margin-bottom: 4px;
+	border-bottom: 1px solid #bdc3c7;
+
+}
+
+#view {
+	float: right;
+	text-decoration: none;
+	color:#2980b9;
+}
+#view:hover {
+	font-weight: bold;
+}
+
+#bottom {
+	padding: 12px;
+	margin-top: 97px;
+	float:right;
+}
+
+#see {
+
+	float: right;
+	text-decoration: none;
+	color:#2980b9;
+}
+
+#see:hover {
+	font-weight: bold;
+}
+

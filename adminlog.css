@@ -1,0 +1,352 @@
+
+body {
+
+	font-family: segoe UI;
+background: white;
+
+}
+#cancel {
+	/*margin-left: 240px;*/
+	margin-top: 8px;
+	height: 3em;
+	width: 5em;
+	background-color: #e74c3c;
+	border-radius: 3px;
+	color: #fff;
+	border: 1px solid #ecf0f1;
+	border-radius: 5px;
+	font-weight: bold;
+}
+
+#cancel:hover {
+	opacity: 0.9;
+	cursor: pointer;
+	
+}
+#login {
+
+	float:right;
+	margin-right: 40px;
+margin-top: 0px;
+font-weight: bold;
+font-size: 13pt;
+	line-height: 5px;
+
+}
+#login:hover {
+	cursor: pointer;
+	opacity: 0.9;
+}
+
+#line {
+
+	background-color: #00AF33;
+	height: 130px;
+	width: 100%;
+	margin-bottom: 10px;
+	  position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    font-size: 3em;
+    color: white;
+    text-align: center;
+}
+
+#framecontent{
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	width: 100%; 
+	height: 40px; /*Height of frame div*/
+	overflow: hidden; /*Disable scrollbars. Set to "scroll" to enable*/
+	background-color: #353F3E;
+	text-align: center;
+	color: white;
+}
+#maincontent{
+	position: fixed; 
+	top: 40px; /*Set top value to HeightOfFrameDiv*/
+	left: 0;
+	right: 0;
+	bottom: 0;
+	overflow: auto; 
+}
+ul#navmenu, ul.sub1, ul.sub2 {
+	list-style-type: none;
+	font-size: 12pt;
+	font-weight: bold;				
+}			
+ul#navmenu li {			
+	width: auto;
+	text-align: center;
+	float: left;		
+	margin-left: 20px;
+	margin-top: 0px;
+}			
+ul#navmenu a {
+	text-decoration: none;
+	display: block;
+	height: 35px;
+	position: inline;
+   line-height: 5px;
+	float:center;
+	color: white;
+}
+ul#navmenu li a.selected{
+	color: #f39c12;	
+	}	
+ul#navmenu li:hover a:hover {
+	color: #f39c12;
+	}
+			
+.innertube{
+margin: 3px; /*Margins for inner DIV inside each DIV (to provide padding)*/
+}
+
+#boxtop {
+
+	color:#fff;
+	text-shadow: 0px 0px 1px #ddd;
+	background-color:#353F3E;
+	padding: 5px;
+	padding-left: 10px;
+	font-weight: 300;
+	text-align: center;
+}
+
+.container {
+
+	width: 100%;
+	
+
+	margin: 0 auto;
+}
+
+.row {
+	
+	
+	width: 400px;
+	height: 450px;
+	border-radius: 4px;
+	/*margin-left:790px;*/
+}
+
+h2{
+
+	color: #34495e;
+	text-align:center;
+}
+label {
+
+	font-size: 14pt;
+
+}
+
+.login-form {
+
+	border:1px solid #2c3e50;
+	padding: 20px;
+	background-color: white;
+	height: 410px;
+	border-radius: 4px;
+}
+.login-text {
+
+	padding-top: 10px;
+	padding-right:20px;
+}
+
+input[type=text] {
+	margin-top: 5px;
+	width: 23.4em;
+	height:2em;
+	font-size: 0.9em;
+	border: 1px solid #bdc3c7;
+	border-radius: 3px;
+}
+
+input[type=password] {
+	margin-top: 5px;
+	width: 23.4em;
+	height:2em;
+	font-size: 0.9em;
+	border: 1px solid #bdc3c7;
+	border-radius: 3px;
+}
+a {
+	text-decoration: none;
+}
+
+input[type=submit] {
+	/*margin-left: 240px;*/
+	margin-top: 8px;
+	height: 3em;
+	width: 5em;
+	background-color: #27ae60;
+	border-radius: 3px;
+	color: #fff;
+	border: 1px solid #ecf0f1;
+	border-radius: 5px;
+	font-weight: bold;
+}
+
+input[type=submit]:hover {
+	opacity: 0.9;
+	cursor: pointer;
+	
+}
+
+input[type=button] {
+	/*margin-left: 240px;*/
+	margin-top: 8px;
+	height: 3em;
+	width: 5em;
+	background-color: #e74c3c;
+	border-radius: 3px;
+	color: #fff;
+	border: 1px solid #ecf0f1;
+	border-radius: 5px;
+	font-weight: bold;
+}
+
+input[type=button]:hover {
+	opacity: 0.9;
+	cursor: pointer;
+	
+}
+.buttons {
+
+	float:right;
+	background-color: white;
+}
+
+@media only screen and (max-width:320px){
+
+html {
+
+padding-top: 20px;
+	margin: 0px;
+	box-sizing: border-box;
+
+}
+
+
+
+
+input[type=text] {
+	margin-top: 5px;
+	width: 16em;
+	height:2em;
+	font-size: 0.9em;
+	border: 1px solid #bdc3c7;
+	border-radius: 3px;
+}
+
+input[type=password] {
+	margin-top: 5px;
+	width: 16em;
+	height:2em;
+	font-size: 0.9em;
+	border: 1px solid #bdc3c7;
+	border-radius: 3px;
+}
+
+	}
+
+
+
+
+/* maliit */
+
+
+	@media only screen and (min-width:320px){
+
+
+html {
+
+padding: 30px;
+	margin: 0px;
+	box-sizing: border-box;
+
+}
+.row {
+	
+	
+	width: 400px;
+	height: 450px;
+	border-radius: 4px;
+	margin-left:790px;
+	background-color: white;
+	
+}
+
+
+input[type=text] {
+	margin-top: 5px;
+	width: 23.4em;
+	height:2em;
+	font-size: 0.9em;
+	border: 1px solid #bdc3c7;
+	border-radius: 3px;
+}
+
+input[type=password] {
+	margin-top: 5px;
+	width: 23.4em;
+	height:2em;
+	font-size: 0.9em;
+	border: 1px solid #bdc3c7;
+	border-radius: 3px;
+}
+a {
+	text-decoration: none;
+}
+
+input[type=submit] {
+	/*margin-left: 240px;*/
+	margin-top: 8px;
+	height: 3em;
+	width: 5em;
+	background-color: #27ae60;
+	border-radius: 3px;
+	color: #fff;
+	border: 1px solid #ecf0f1;
+	border-radius: 5px;
+	font-weight: bold;
+}
+
+input[type=submit]:hover {
+	opacity: 0.9;
+	cursor: pointer;
+	
+}
+
+input[type=button] {
+	/*margin-left: 240px;*/
+	margin-top: 8px;
+	height: 3em;
+	width: 5em;
+	background-color: #e74c3c;
+	border-radius: 3px;
+	color: #fff;
+	border: 1px solid #ecf0f1;
+	border-radius: 5px;
+	font-weight: bold;
+}
+
+input[type=button]:hover {
+	opacity: 0.9;
+	cursor: pointer;
+	
+}
+.buttons {
+
+	float:right;
+}
+		
+
+#forgot:hover {
+
+	border-bottom: 1px solid;
+}

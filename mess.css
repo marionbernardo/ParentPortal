@@ -1,0 +1,162 @@
+table, #pages {
+	margin: 5% auto 0 auto;
+	width:800px;
+	height: auto;
+	overflow:hidden;
+	background: #f1f1f1;
+}
+
+table tr {
+	width: 100%;
+}
+table tr th {
+	background: #3e3e3e;
+	color:#fff;
+}
+table tr th, table tr td {
+	padding: 10px;
+	color:#999;
+	font-family: segoe ui;
+	font-size: 12px;
+	text-align: center;
+	border-left: 1px solid #fff;
+	border-right: 1px solid #fff;
+}
+table tr td {
+	border-radius: 2px;
+}
+
+table tr td a {
+	color:#999;
+	text-decoration: none;
+}
+#pages {
+
+	margin: 1% auto 0 auto;
+}
+#pages a {
+
+	display: inline-block;
+	margin:0 10px 0 0;
+	padding: 5px 10px;
+	background: #3e3e3e;
+	border-radius: 3px;
+	-webkit-border-radius:3px;
+	color:#fff;
+	font-family: arial;
+	font-size: 12pt;
+	text-decoration: none;
+
+}
+
+a.active {
+
+	background: #ccc !important;
+	color:#666 !important;
+}
+
+#msg {
+
+	margin: 5% auto 0 auto;
+	padding:20px;
+	width: 800px;
+}
+
+#msg table tr td {
+
+	background: #3e3e3e;
+	color:#fff;
+}
+
+#msg {
+	margin:5% auto 0 auto;
+	padding: 20px;
+	width: 800px;
+}
+
+#msg pre {
+	margin:20px 0;
+	padding: 0px;
+	background: #f1f1f1;
+
+}
+.remove {
+
+	margin:10px 0 0 0;
+	padding: 6px 10px;
+	color:#fff;
+	background: #f00;
+	text-decoration: none;
+	font-family: arial;
+	font-size: 12px;
+	border-radius: 3px;
+	-webkit-border-radius:3px;
+}
+
+.back {
+	margin:0;
+	color:#09f;
+	text-decoration: none;
+	font-family: arial;
+	font-size: 12px;
+}
+
+form {
+	margin:0 auto;
+	padding: 0;
+	width: 600px;
+	height: auto;
+	overflow: hidden;
+	background:#f1f1f1;
+	font-family: arial;
+	font-size: 12px;
+	color:#999;
+	border: 1px solid black;
+
+}
+
+form label {
+	margin:10px;
+	padding:0;
+	float:left;
+	clear: both;
+	cursor: pointer;
+}
+
+
+form input, form textarea {
+	margin:10px;
+	padding:5px;
+	float:left;
+	clear:both;
+	font-family: arial;
+	font-size: 12px;
+}
+
+form input[type=submit] {
+
+	background: #3e3e3e;
+	color:#fff;
+	padding:6px 10px;
+	cursor: pointer;
+	border:none;
+	border-radius: 3px;
+	-webkit-border-radius:3px;
+}
+
+form textarea {
+	width:300px;
+	min-height: 160px;
+	max-height: 200px;
+	resize:vertical;
+
+}
+form input[type=submit]:hover {
+	 background: #09f;
+
+}
+
+.success {
+	color:green;
+	text-align: center;
+}
